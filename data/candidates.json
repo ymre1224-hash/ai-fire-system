@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:22:04+00:00",
+  "generated_at": "2026-11-23T09:06:19+00:00",
   "status": "unverified_candidates",
   "note": "公式RSSの見出し・リンク・配信元抜粋を自動取得した未検証候補です。抜粋はAIによる検証済み要約ではありません。",
   "items": [
@@ -7,43 +7,50 @@
       "publisher": "GitHub Blog",
       "title": "Maintainers don’t need more AI bug reports. They need fixes.",
       "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
-      "excerpt": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog ."
+      "excerpt": "In the Codename MDASH pilot, GitHub and Microsoft turned thousands of raw AI findings into 99 checked, private reports with suggested fixes for six widely used open source projects. Maintainers have already fixed more than half. The post Maintainers don’t need more AI bug reports. They need fixes. appeared first on The GitHub Blog .",
+      "published_at": "2026-11-17T18:29:29+00:00"
     },
     {
       "publisher": "GitHub Blog",
       "title": "Building the Agent Host Protocol for sessions that continue across devices",
       "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
-      "excerpt": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog ."
+      "excerpt": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud. The post Building the Agent Host Protocol for sessions that continue across devices appeared first on The GitHub Blog .",
+      "published_at": "2026-11-17T18:20:40+00:00"
     },
     {
       "publisher": "GitHub Blog",
       "title": "Build once, run on any agent: A practical guide to agent skills",
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog ."
+      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+      "published_at": "2026-11-12T22:54:52+00:00"
     },
     {
       "publisher": "Cloudflare Blog",
       "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
       "url": "https://blog.cloudflare.com/open-clairic/",
-      "excerpt": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models."
+      "excerpt": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+      "published_at": "2026-11-18T22:00:00+00:00"
     },
     {
       "publisher": "Cloudflare Blog",
       "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
       "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-      "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures."
+      "excerpt": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+      "published_at": "2026-11-13T19:26:07+00:00"
     },
     {
       "publisher": "Cloudflare Blog",
       "title": "Agents aren’t humans (but they kinda are)",
       "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-      "excerpt": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic."
+      "excerpt": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+      "published_at": "2026-11-05T17:03:04+00:00"
     },
     {
       "publisher": "Cloudflare Blog",
       "title": "See the agents, set the terms: New visibility and control for personal agents",
       "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-      "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access."
+      "excerpt": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+      "published_at": "2026-11-04T14:00:00+00:00"
     }
   ]
 }
