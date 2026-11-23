@@ -1,6 +1,42 @@
 {
-  "generated_at": null,
-  "status": "not_started",
-  "note": "GitHub Actionsを有効化し、初回実行後に取得候補が表示されます。",
-  "items": []
+  "generated_at": "2026-11-23T00:31:02+00:00",
+  "status": "unverified_candidates",
+  "note": "公式ブログの見出しとリンクを自動取得した候補一覧です。比較・推薦・価格情報ではありません。",
+  "items": [
+    {
+      "publisher": "GitHub Blog",
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/"
+    },
+    {
+      "publisher": "GitHub Blog",
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/"
+    },
+    {
+      "publisher": "GitHub Blog",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"
+    },
+    {
+      "publisher": "Cloudflare Blog",
+      "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+      "url": "https://blog.cloudflare.com/open-clairic/"
+    },
+    {
+      "publisher": "Cloudflare Blog",
+      "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+      "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/"
+    },
+    {
+      "publisher": "Cloudflare Blog",
+      "title": "Agents aren’t humans (but they kinda are)",
+      "url": "https://blog.cloudflare.com/trusted-agent-delegation/"
+    },
+    {
+      "publisher": "Cloudflare Blog",
+      "title": "See the agents, set the terms: New visibility and control for personal agents",
+      "url": "https://blog.cloudflare.com/personal-agents-visibility-control/"
+    }
+  ]
 }
