@@ -3,6 +3,7 @@
 No generated reviews, endorsements, affiliate links, or unsupported claims.
 """
 import datetime as dt
+from email.utils import parsedate_to_datetime
 import html as html_lib
 import json
 import os
@@ -26,6 +27,17 @@ def clean_excerpt(raw):
     raw = ' '.join(raw.split())
     return raw[:360]
 
+def parse_pubdate(raw):
+    if not raw:
+        return None
+    try:
+        value = parsedate_to_datetime(raw.strip())
+        if value.tzinfo is None:
+            value = value.replace(tzinfo=dt.timezone.utc)
+        return value.astimezone(dt.timezone.utc).isoformat(timespec='seconds')
+    except (TypeError, ValueError, IndexError, OverflowError):
+        return None
+
 def parse_feed(payload, publisher):
     root = ET.fromstring(payload)
     out = []
@@ -36,7 +48,7 @@ def parse_feed(payload, publisher):
             continue
         if not url.startswith('https://'):
             continue
-        out.append({'publisher': publisher, 'title': title, 'url': url, 'excerpt': clean_excerpt(item.findtext('description'))})
+        out.append({'publisher': publisher, 'title': title, 'url': url, 'excerpt': clean_excerpt(item.findtext('description')), 'published_at': parse_pubdate(item.findtext('pubDate'))})
     return out
 
 def collect():
