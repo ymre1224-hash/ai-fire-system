@@ -3,6 +3,7 @@
 No generated reviews, endorsements, affiliate links, or unsupported claims.
 """
 import datetime as dt
+import html as html_lib
 import json
 import os
 import re
@@ -18,6 +19,13 @@ SOURCES = [
 ]
 KEYWORDS = re.compile(r'\b(ai|agents?|artificial intelligence|automation|android|machine learning|llm|generative)\b', re.I)
 
+def clean_excerpt(raw):
+    # RSS description is publisher-provided; never claim it is independently verified.
+    raw = re.sub(r'<[^>]*>', ' ', raw or '')
+    raw = html_lib.unescape(raw)
+    raw = ' '.join(raw.split())
+    return raw[:360]
+
 def parse_feed(payload, publisher):
     root = ET.fromstring(payload)
     out = []
@@ -28,7 +36,7 @@ def parse_feed(payload, publisher):
             continue
         if not url.startswith('https://'):
             continue
-        out.append({'publisher': publisher, 'title': title, 'url': url})
+        out.append({'publisher': publisher, 'title': title, 'url': url, 'excerpt': clean_excerpt(item.findtext('description'))})
     return out
 
 def collect():
@@ -57,7 +65,7 @@ def main():
     doc = {
         'generated_at': dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'),
         'status': 'unverified_candidates',
-        'note': '公式ブログの見出しとリンクを自動取得した候補一覧です。比較・推薦・価格情報ではありません。',
+        'note': '公式RSSの見出し・リンク・配信元抜粋を自動取得した未検証候補です。抜粋はAIによる検証済み要約ではありません。',
         'items': unique[:12],
     }
     DEST.parent.mkdir(parents=True, exist_ok=True)
