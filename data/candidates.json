@@ -1,8 +1,15 @@
 {
-  "generated_at": "2026-11-25T09:51:42+00:00",
+  "generated_at": "2026-11-26T09:32:06+00:00",
   "status": "unverified_candidates",
   "note": "公式RSSの見出し・リンク・配信元抜粋を自動取得した未検証候補です。抜粋はAIによる検証済み要約ではありません。",
   "items": [
+    {
+      "publisher": "GitHub Blog",
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "excerpt": "Now that code ships faster than ever, you have more time to spend on projects just for the fun of it. Here's what we can learn through that process as developers. The post Art of play in the age of AI appeared first on The GitHub Blog .",
+      "published_at": "2026-11-25T16:00:00+00:00"
+    },
     {
       "publisher": "GitHub Blog",
       "title": "Maintainers don’t need more AI bug reports. They need fixes.",
@@ -23,6 +30,13 @@
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
       "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
       "published_at": "2026-11-12T22:54:52+00:00"
+    },
+    {
+      "publisher": "Cloudflare Blog",
+      "title": "Introducing Search for Agents",
+      "url": "https://blog.cloudflare.com/search-for-agents/",
+      "excerpt": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+      "published_at": "2026-11-25T14:00:00+00:00"
     },
     {
       "publisher": "Cloudflare Blog",
